@@ -1,0 +1,59 @@
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #8b0000, #ff0000);
+    min-height: 100vh;
+    color: white;
+}
+
+/* Center content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Main title */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0 #400000;
+}
+
+/* Mod card */
+.mod-card {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid #ff4d4d;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Mod title */
+.mod-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Download button */
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(180deg, #ff5555, #b30000);
+    border-radius: 8px;
+    border: 2px solid #ff9999;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(180deg, #ff7777, #cc0000);
+}
